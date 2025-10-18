@@ -1,0 +1,16 @@
+ipykernel
+langchain-community
+langchain_google_genai
+langgraph
+langchain_groq
+python-dotenv
+langchain_huggingface
+sentence-transformers
+chromadb 
+langchain-tavily
+langchain-openai
+langchain-core
+wikipedia
+structlog
+
+-e .
