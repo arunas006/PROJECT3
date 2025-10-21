@@ -58,7 +58,7 @@ class ModelLoader:
 
         try:
             llm_block = self.config.get('llm')
-            provider_key=os.getenv("LLM_PROVIDER","google")
+            provider_key=os.getenv("LLM_PROVIDER","openai")
             
             if provider_key not in llm_block:
                 raise ResearchAnalystException(f"LLM provider '{provider_key}' not found in configuration.")
